@@ -12,3 +12,5 @@ access the hosted database.
 
 In an attempt to continue working through the course, I created this project. It does not return product images since its
 data is stored within index.js.
+
+The product data in index.js was shown in the module 2 video "Demo: Get Your App Ready for HTTP" at the 3:27 time index. 
