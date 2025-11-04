@@ -17,18 +17,21 @@ Pictures are served from the 'images' path: http://localhost:8081/images/golden_
 The product data in index.js was shown in the module 2 video "Demo: Get Your App Ready for HTTP" at the 3:27 time index. 
 
 ## API Endpoints
+
+Any POST/PUT/PATCH/DELETE API requests will not affect the original list of products.
+
 ### HTTP GET
 - /api - gets all products, optional query parameters of `limit=<<number>>` and `sort=<<'asc'|'desc'>>`
 - /api/<id> - get product by ID
 
 ### HTTP POST
-- /api - add new product, will 'create' a new product and return it. The list of products is not affected. Product data is in the body of the request.
+- /api - add new product, will 'create' a new product and return it. Product data to add is in the body of the request.
 
 ### HTTP PUT
-- /api - update existing product. Product data to update is in the body of the request. Properties not in the body will be set to null. Updated product is returned, but the list of products is not affected.
+- /api - update existing product. Product data to update is in the body of the request. Properties not in the body will be set to null. Updated product is returned.
 
 ### HTTP PATCH
-- /api - update existing product. Product data to update is in the body of the request. Properties not in the body will remain untouched. Updated product is returned, but the list of products is not affected.
+- /api - update existing product. Product data to update is in the body of the request. Properties not in the body will remain untouched. Updated product is returned.
 
 ### HTTP DELETE
-- /api/<id> - delete existing product. Deleted product is returned, but the list of products is not affected.
+- /api/<id> - delete existing product. Deleted product is returned.
