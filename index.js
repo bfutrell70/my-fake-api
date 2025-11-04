@@ -51,6 +51,14 @@ app.use(bodyParser.json());
     but I the structure of the collections/tables is not in 
     the repository.
 
+    Images
+    ------
+    Images are now served from the path http://localhost:8081/images.
+    There are three images to match the sample product data:
+    - golden_sunrise.png
+    - rainforest_rhapsody.png
+    - signature_blend.png
+
 */
 
 // get products, optional limit and sort
