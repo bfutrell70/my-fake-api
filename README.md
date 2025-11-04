@@ -18,7 +18,7 @@ The product data in index.js was shown in the module 2 video "Demo: Get Your App
 
 ## API Endpoints
 ### HTTP GET
-- /api - gets all products, optional query parameters of limit=<number> and  sort=<'asc'|'desc'>
+- /api - gets all products, optional query parameters of `limit=<<number>>` and `sort=<<'asc'|'desc'>>`
 - /api/<id> - get product by ID
 
 ### HTTP POST
