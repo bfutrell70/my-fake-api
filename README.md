@@ -5,7 +5,7 @@ The https://fake-coffee-api.vercel.app/api site has been down for at least two m
 site's GitHub repository (https://github.com/ArvidGardebo/fake-coffee-brand-api) and attempted to add a message to the course's 
 discussion.
 
-The above project is written in React and uses MongoDB for data storage. I forked the project and got it to run, but my
+The fake coffee api project is written in React and uses MongoDB for data storage. I forked the project and got it to run, but my
 MongoDB-fu is not very strong. I created a free account on https://mongodb.com to create a hosted database, but for some reason
 the computer I'm using for the project can't connect to it - even with its IP address added to the list of addresses that can
 access the hosted database.
