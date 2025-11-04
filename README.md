@@ -20,7 +20,7 @@ The product data in index.js was shown in the module 2 video "Demo: Get Your App
 - clone the project to your computer
 - from a terminal prompt (Command Prompt/PowerShell/bash/etc.) navigate to the repository folder
 - type in 'npm install' to restore Node packages used in the project
-- to start the project, type in 'npm start'
+- to start the project, type in 'npm start' - it will listen on port 8081.
 
 ## API Endpoints
 
