@@ -10,7 +10,8 @@ MongoDB-fu is not very strong. I created a free account on https://mongodb.com t
 the computer I'm using for the project can't connect to it - even with its IP address added to the list of addresses that can
 access the hosted database.
 
-In an attempt to continue working through the course, I created this project. It does not return product images since its
-data is stored within index.js.
+In an attempt to continue working through the course, I created this project. 
+
+Pictures are served from the 'images' path: http://localhost:8081/images/golden_sunrise.png. I'm not sure if the image names are correct for the Pluralsight course, will update them as needed.
 
 The product data in index.js was shown in the module 2 video "Demo: Get Your App Ready for HTTP" at the 3:27 time index. 
