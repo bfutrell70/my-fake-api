@@ -1,6 +1,6 @@
 # my-fake-api
-Demo API written in Express to replace the API site used for the Pluralsight course Angular HTTP Playbook. Other Pluralsight Angular courses
-contain a simple API server to provide data for the Angular project being used for the course material. This project was made in the same vein as
+Demo API written in Express to replace the API site used for the Pluralsight course Angular HTTP Playbook. Some Pluralsight Angular courses
+by Jim Cooper contain a simple API server to provide data for the Angular project being used for the course material. This project was made in the same vein as
 those simple API projects, but is not yet set up in the same way.
 
 The https://fake-coffee-api.vercel.app/api site has been down for at least two months as of October 28, 2025. I added an issue to the
@@ -43,3 +43,23 @@ Any POST/PUT/PATCH/DELETE API requests will not affect the original list of prod
 
 ### HTTP DELETE
 - /api/<id> - delete existing product. Deleted product is returned.
+
+## Using this project within an Angular project
+- copy the my-fake-api folder to the Angular project folder
+- within the Angular project, create the file `proxy.conf.json` witin the `/src` folder
+- paste the following JSON markup into the file:
+
+```
+{
+  "/api": {
+    "target": "http://localhost:8081",
+    "secure": false
+  }
+}
+```
+
+- in the angular.json file, go to the "serve" section and add the following line under "configuration:development":
+`"proxyConfig": "src/proxy.conf.json"`
+
+- run the my-fake-api project by opening a terminal, navigating to the folder and runing `npm start`
+- run the Angular application by opening a terminal, navigating to the Angular project folder and running `npm start`
