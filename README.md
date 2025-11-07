@@ -1,5 +1,7 @@
 # my-fake-api
-Demo API written in Express to replace the API site used for the Pluralsight course Angular HTTP Playbook.
+Demo API written in Express to replace the API site used for the Pluralsight course Angular HTTP Playbook. Other Pluralsight Angular courses
+contain a simple API server to provide data for the Angular project being used for the course material. This project was made in the same vein as
+those simple API projects, but is not yet set up in the same way.
 
 The https://fake-coffee-api.vercel.app/api site has been down for at least two months as of October 28, 2025. I added an issue to the
 site's GitHub repository (https://github.com/ArvidGardebo/fake-coffee-brand-api) and attempted to add a message to the course's 
