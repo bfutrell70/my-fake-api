@@ -311,6 +311,7 @@ function fetchProductsFromDatabase() {
       flavor_profile: ["Dark Chocolate", "Black Cherry"],
       grind_option: ["Whole Bean", "Cafetiere", "Filter", "Espresso"],
       roast_level: 3,
+      image_url: "http://localhost:8081/images/signature_blend.png"
     },
     {
       id: 2,
@@ -323,6 +324,7 @@ function fetchProductsFromDatabase() {
       flavor_profile: ["Citrus"],
       grind_option: ["Whole Bean", "Cafetiere", "Filter", "Espresso"],
       roast_level: 2,
+      image_url: "http://localhost:8081/images/golden_sunrise.png"
     },
     {
       id: 3,
@@ -335,6 +337,7 @@ function fetchProductsFromDatabase() {
       flavor_profile: ["Citrus"],
       grind_option: ["Whole Bean", "Cafetiere", "Filter", "Espresso"],
       roast_level: 2,
+      image_url: "http://localhost:8081/images/rainforest_rhapsody.png"
     },
   ];
 }
