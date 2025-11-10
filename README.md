@@ -58,7 +58,7 @@ Any POST/PUT/PATCH/DELETE API requests will not affect the original list of prod
 }
 ```
 
-- in the angular.json file, go to the "serve" section and add the following line under "configuration:development":
+- in the angular.json file, go to the `serve` section and add the following line under "configuration:development":
 `"proxyConfig": "src/proxy.conf.json"`
 
 - run the my-fake-api project by opening a terminal, navigating to the folder and runing `npm start`
