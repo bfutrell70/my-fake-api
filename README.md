@@ -17,6 +17,7 @@ In an attempt to continue working through the course, I created this project.
 Pictures are served from the 'images' path: `http://localhost:8081/images/<<image filename>>`. I'm not sure if the image names are correct for the Pluralsight course, will update them as needed. You can tell I used a sample image and modified them for use with this project - be gentle. :)
 
 The product data in index.js was shown in the module 2 video "Demo: Get Your App Ready for HTTP" at the 3:27 time index and the module 2 video "Demo: Requesting JSON Date" at the 6:00 time index. 
+Additional coffee product data added from the Module 2 video "Demo: Creating and Modifying Data Using Request Entities".
 
 ## Using this project
 - clone the project to your computer
@@ -63,3 +64,10 @@ Any POST/PUT/PATCH/DELETE API requests will not affect the original list of prod
 
 - run the my-fake-api project by opening a terminal, navigating to the folder and runing `npm start`
 - run the Angular application by opening a terminal, navigating to the Angular project folder and running `npm start`
+- when attempting to use an API call, use the URL '/api' to access the my-fake-api server
+
+### November 10, 2025
+When attempting to post data from the source code of the Angular HTTP Playbook course, I was getting HTTP 500 errors.
+In the file `coffee-api-service.ts`, when the createCoffee method was called it converted the coffee object to a string
+using JSON.stringify() before making the API request. Just sending the coffee object as-is worked.
+
