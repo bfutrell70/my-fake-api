@@ -338,7 +338,20 @@ function fetchProductsFromDatabase() {
       grind_option: ["Whole Bean", "Cafetiere", "Filter", "Espresso"],
       roast_level: 2,
       image_url: "http://localhost:8081/images/rainforest_rhapsody.png"
-    },,
+    },
+    {
+      id: 4,
+      name: "Harvest Moon",
+      description:
+        "A smooth and earthy blend with notes of cocoa and hazelnut.",
+      price: 9.99,
+      region: "Central America",
+      weight: 500,
+      flavor_profile: ["Cocoa", "Hazelnut"],
+      grind_option: ["Whole Bean", "Cafetiere", "Filter", "Espresso"],
+      roast_level: 3,
+      image_url: "http://localhost:8081/images/rainforest_rhapsody.png"
+    },
     {
       id: 5,
       name: "Wildfire",
@@ -366,6 +379,71 @@ function fetchProductsFromDatabase() {
       image_url: "http://localhost:8081/images/rainforest_rhapsody.png"
     },
     {
+      id: 7,
+      name: "Breezy Beans",
+      description:
+        "This coffee blend is made from beans sourced from Honduras and Costa Rica. It is a light roast coffee with a bright and citrusy flavor profile. It is perfect for pour-over and drop coffee brewing methods.",
+      price: 11.99,
+      region: "Central America",
+      weight: 500,
+      flavor_profile: ["Citrusy"],
+      grind_option: ["Whole Bean", "Filter"],
+      roast_level: 1,
+      image_url: "http://localhost:8081/images/rainforest_rhapsody.png"
+    },
+    {
+      id: 8,
+      name: "Indo-Viet Roast",
+      description:
+        "This coffee blend is made from beans sourced from Indonesia and Vietnam. It is a medium-dark roast coffee with a spicy and earthy flavor profile, with notes of cinnamon and clove. It is perfect for drip and French press brewing methods.",
+      price: 13.99,
+      region: "Asia Pacific",
+      weight: 500,
+      flavor_profile: ["Spicy", "Earthy", "Cinnamon", "Clove"],
+      grind_option: ["Whole Bean", "Filter", "French press"],
+      roast_level: 4,
+      image_url: "http://localhost:8081/images/rainforest_rhapsody.png"
+    },
+    {
+      id: 11,
+      name: "Andean Almond",
+      description:
+        "A smooth and mellow coffee from the mountains of South America, with hints of almond and toffee.",
+      price: 10.99,
+      region: "South America",
+      weight: 500,
+      flavor_profile: ["Almond", "Toffee"],
+      grind_option: ["Whole Bean", "Cafetiere", "Filter"],
+      roast_level: 3,
+      image_url: "http://localhost:8081/images/rainforest_rhapsody.png"
+    },
+    {
+      id: 14,
+      name: "Arabian Nights",
+      description:
+        "A bold and spicy coffee from the Middle East, with notes of cardamom and cinnamon",
+      price: 13.99,
+      region: "Middle East",
+      weight: 500,
+      flavor_profile: ["Cardamon", "Cinnamon"],
+      grind_option: ["Whole Bean", "Cafetiere", "Filter", "Espresso"],
+      roast_level: 1,
+      image_url: "http://localhost:8081/images/rainforest_rhapsody.png"
+    },
+    {
+      id: 16,
+      name: "Himalayan Heights",
+      description:
+        "Grown on the steep slopes of the Himalayan Mountains, this coffee is known for its bright acidity and delicate floral notes. This light roast is perfect for those who prefer a more delicate flavor profile.",
+      price: 12.99,
+      region: "Asia Pacific",
+      weight: 500,
+      flavor_profile: ["Floral", "Citrus", "Honey"],
+      grind_option: ["Whole Bean", "Cafetiere", "Filter", "Espresso"],
+      roast_level: 1,
+      image_url: "http://localhost:8081/images/rainforest_rhapsody.png"
+    },
+    {
       id: 17,
       name: "Sumatra Blend",
       description:
@@ -376,6 +454,19 @@ function fetchProductsFromDatabase() {
       flavor_profile: ["Dark Chocolate", "Smoke"],
       grind_option: ["Whole Bean", "Cafetiere", "Filter", "Espresso"],
       roast_level: 5,
+      image_url: "http://localhost:8081/images/rainforest_rhapsody.png"
+    },
+    {
+      id: 18,
+      name: "Bali Bliss",
+      description:
+        "Escape to the tropical paradise of Bali with this smooth and mellow blend. Grown on small family farms, this coffee is shade-grown and handpicked for a rich and nuanced flavor profile. Notes of milk chocolate, hazelnut, and a hint of tropical fruit.",
+      price: 11.99,
+      region: "Asia Pacific",
+      weight: 500,
+      flavor_profile: ["Milk Chocolate", "Hazelnut", "Tropical Fruit"],
+      grind_option: ["Whole Bean", "Cafetiere", "Filter", "Espresso"],
+      roast_level: 3,
       image_url: "http://localhost:8081/images/rainforest_rhapsody.png"
     },
   ];
