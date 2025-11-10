@@ -338,6 +338,45 @@ function fetchProductsFromDatabase() {
       grind_option: ["Whole Bean", "Cafetiere", "Filter", "Espresso"],
       roast_level: 2,
       image_url: "http://localhost:8081/images/rainforest_rhapsody.png"
+    },,
+    {
+      id: 5,
+      name: "Wildfire",
+      description:
+        "A bold and smoky blend with notes of chocolate and molasses.",
+      price: 12.99,
+      region: "Africa",
+      weight: 500,
+      flavor_profile: ["Dark Chocolate", "Molasses"],
+      grind_option: ["Whole Bean", "Cafetiere", "Filter", "Espresso"],
+      roast_level: 5,
+      image_url: "http://localhost:8081/images/rainforest_rhapsody.png"
+    },
+    {
+      id: 6,
+      name: "Walnut Wonder",
+      description:
+        "A smooth and nutty coffee from the slopes of South America",
+      price: 9.99,
+      region: "South America",
+      weight: 500,
+      flavor_profile: ["Nutty", "Smooth"],
+      grind_option: ["Whole Bean", "Cafetiere", "Filter", "Espresso"],
+      roast_level: 3,
+      image_url: "http://localhost:8081/images/rainforest_rhapsody.png"
+    },
+    {
+      id: 17,
+      name: "Sumatra Blend",
+      description:
+        "Get your day started with the bold and earthy flavors of Sumatra. Grown on the lush tropical slopes of the Gayo Highlands, this coffee is known for its full body, low acidity, and notes of dark chocolate and smoke.",
+      price: 8.99,
+      region: "Asia Pacific",
+      weight: 500,
+      flavor_profile: ["Dark Chocolate", "Smoke"],
+      grind_option: ["Whole Bean", "Cafetiere", "Filter", "Espresso"],
+      roast_level: 5,
+      image_url: "http://localhost:8081/images/rainforest_rhapsody.png"
     },
   ];
 }
