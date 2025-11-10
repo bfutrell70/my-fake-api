@@ -71,3 +71,22 @@ When attempting to post data from the source code of the Angular HTTP Playbook c
 In the file `coffee-api-service.ts`, when the createCoffee method was called it converted the coffee object to a string
 using JSON.stringify() before making the API request. Just sending the coffee object as-is worked.
 
+Does not work:
+```
+return this.http
+      .post<{success: boolean, added: Coffee }>(
+        this.apiURL,
+        JSON.stringify(coffee)
+      )
+      .pipe(map(res => res.added), retry(1), catchError(this.handleError));
+```
+
+Works:
+```
+return this.http
+      .post<{success: boolean, added: Coffee }>(
+        this.apiURL,
+        coffee
+      )
+      .pipe(map(res => res.added), retry(1), catchError(this.handleError));
+```
