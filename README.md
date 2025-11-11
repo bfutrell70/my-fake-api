@@ -69,7 +69,10 @@ Any POST/PUT/PATCH/DELETE API requests will not affect the original list of prod
 ### November 10, 2025
 When attempting to post data from the source code of the Angular HTTP Playbook course, I was getting HTTP 500 errors.
 In the file `coffee-api-service.ts`, when the createCoffee method was called it converted the coffee object to a string
-using JSON.stringify() before making the API request. Just sending the coffee object as-is worked.
+using JSON.stringify() before making the API request. Just sending the coffee object as-is worked. 
+
+The instructor mentioned that JSON.stringify was used specifically for the fake-coffee-api site and that most API sites
+would not need it.
 
 Does not work:
 ```
@@ -90,3 +93,7 @@ return this.http
       )
       .pipe(map(res => res.added), retry(1), catchError(this.handleError));
 ```
+
+### November 11, 2025
+To make it easier to maintain the fake coffee product data, I moved the data to a JSON file, which is 
+then read when performing API requests.
