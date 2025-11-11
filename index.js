@@ -30,15 +30,15 @@ app.use(bodyParser.json());
     Product structure:
     ------------------
     {
-        id:Number,
-        name:String,
-        description:String,
-        price:Number,
-        region:String,
-        weight:Number,
-        flavor_profile:Array,
-        grind_option:Array,
-        roast_level:Number,
+        id:             Number,
+        name:           String,
+        description:    String,
+        price:          Number,
+        region:         String,
+        weight:         Number,
+        flavor_profile: Array of strings,
+        grind_option:   Array of strings,
+        roast_level:    Number,
     }
 
     Individual objects
