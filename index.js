@@ -418,6 +418,19 @@ function fetchProductsFromDatabase() {
       image_url: "http://localhost:8081/images/rainforest_rhapsody.png"
     },
     {
+      id: 12,
+      name: "Savanna Noir",
+      description:
+        "A bold and rich coffee from the African savanna, with notes of dark chocolate and blackcurrent.",
+      price: 12.99,
+      region: "Africa",
+      weight: 500,
+      flavor_profile: ["Dark Chocolate", "Blackcurrent"],
+      grind_option: ["Whole Bean", "Filter", "Espresso"],
+      roast_level: 4,
+      image_url: "http://localhost:8081/images/rainforest_rhapsody.png"
+    },
+    {
       id: 14,
       name: "Arabian Nights",
       description:
