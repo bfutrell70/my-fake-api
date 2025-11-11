@@ -97,3 +97,5 @@ return this.http
 ### November 11, 2025
 To make it easier to maintain the fake coffee product data, I moved the data to a JSON file, which is 
 then read when performing API requests.
+
+I have also included `Angular HTTP Playbook.postman_collection.json`, which is an exported collection of API calls from Postman that tests the API endpoints for this project.
