@@ -31,7 +31,7 @@ Any POST/PUT/PATCH/DELETE API requests will not affect the original list of prod
 
 ### HTTP GET
 - /api - gets all products, optional query parameters of `limit=<<number>>` and `sort=<<'asc'|'desc'>>`
-- /api/<id> - get product by ID
+- /api/1 - get product by ID
 
 ### HTTP POST
 - /api - add new product, will 'create' a new product and return it. Product data to add is in the body of the request.
