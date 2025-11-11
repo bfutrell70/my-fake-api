@@ -64,7 +64,7 @@ Any POST/PUT/PATCH/DELETE API requests will not affect the original list of prod
 
 - run the my-fake-api project by opening a terminal, navigating to the folder and runing `npm start`
 - run the Angular application by opening a terminal, navigating to the Angular project folder and running `npm start`
-- when attempting to use an API call, use the URL '/api' to access the my-fake-api server
+- when attempting to use an API call, use the URL `/api` to access the my-fake-api server
 
 ### November 10, 2025
 When attempting to post data from the source code of the Angular HTTP Playbook course, I was getting HTTP 500 errors.
