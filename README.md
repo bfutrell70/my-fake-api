@@ -43,7 +43,7 @@ Any POST/PUT/PATCH/DELETE API requests will not affect the original list of prod
 - /api - update existing product. Product data to update is in the body of the request. Properties not in the body will remain untouched. Updated product is returned.
 
 ### HTTP DELETE
-- /api/<id> - delete existing product. Deleted product is returned.
+- /api/1 - delete existing product. Deleted product is returned.
 
 ## Using this project within an Angular project
 - copy the my-fake-api folder to the Angular project folder
