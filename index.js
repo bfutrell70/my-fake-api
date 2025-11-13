@@ -50,6 +50,7 @@ app.use(bodyParser.json());
         flavor_profile: Array of strings,
         grind_option:   Array of strings,
         roast_level:    Number,
+        image_url:      String
     }
 
     Individual objects
