@@ -16,13 +16,13 @@ In an attempt to continue working through the course, I created this project.
 
 Pictures are served from the 'images' path: `http://localhost:8081/images/<<image filename>>`. I'm not sure if the image names are correct for the Pluralsight course, will update them as needed. You can tell I used a sample image and modified them for use with this project - be gentle. :)
 
-The product data contained in product-data.json was gathered from the Pluralsight Angular HTTP Playbook course. As product data was shown in the module videos I added the data to the JSON file.
+The product data contained in `product-data.json` was gathered from the Pluralsight Angular HTTP Playbook course. As product data was shown in the module videos I added the data to the JSON file.
 
 ## Using this project
 - clone the project to your computer
 - from a terminal prompt (Command Prompt/PowerShell/bash/etc.) navigate to the repository folder
 - type in 'npm install' to restore Node packages used in the project
-- to start the project, type in 'npm start' - it will listen on port 8081.
+- to start the project, type in `npm start` - it will listen on port 8081.
 
 ## API Endpoints
 
