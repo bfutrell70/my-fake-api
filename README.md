@@ -45,25 +45,9 @@ Any POST/PUT/PATCH/DELETE API requests will not affect the original list of prod
 - /api/1 - delete existing product. Deleted product is returned.
 
 ## Using this project within an Angular project
-- [OPTIONAL] Copy the my-fake-api folder to the Angular project folder. Alternatively the my-fake-api folder can be stored elsewhere.
-- within the Angular project, create the file `proxy.conf.json` witin the `/src` folder
-- paste the following JSON markup into the file:
-
-```
-{
-  "/api": {
-    "target": "http://localhost:8081",
-    "secure": false
-  }
-}
-```
-
-- in the angular.json file, go to the `serve` section and add the following line under "configuration:development":
-`"proxyConfig": "src/proxy.conf.json"`
-
-- run the my-fake-api project by opening a terminal, navigating to the `my-fake-api` folder and running `npm start`
-- run the Angular application by opening a terminal, navigating to the Angular project folder and running `npm start`
-- when attempting to use an API call, use the URL `/api` to access the my-fake-api server
+- Run the my-fake-api project by opening a terminal, navigating to the `my-fake-api` folder and running `npm start`
+- Run the Angular application by opening a terminal, navigating to the Angular project folder and running `npm start`
+- When attempting to use an API call, use the URL `http://localhost:8081/api` to access the my-fake-api server. The my-fake-api project has CORS setup to allow access from `http://localhost:4200`, which is the default URL of an Angular project.
 
 ### November 10, 2025
 When attempting to post data from the source code of the Angular HTTP Playbook course, I was getting HTTP 500 errors.
@@ -98,3 +82,6 @@ To make it easier to maintain the fake coffee product data, I moved the data to 
 then read when performing API requests.
 
 I have also included `Angular HTTP Playbook.postman_collection.json`, which is an exported collection of API calls from Postman that tests the API endpoints for this project.
+
+### November 13, 2025
+To make it easier to access image URLs directly in API calls, I set up CORS to allow the URL `http://localhost:4200` to access it. This is the default URL for Angular projects.
