@@ -1,11 +1,17 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-
 const app = express();
- 
+
 // const fs = require("fs");
 const path = require("path"); // to handle file paths correctly
 const data = require("./product-data.json");
+
+// set up CORS to allow an Angular site to request data from this server
+const cors = require("cors");
+const corsOptions = {
+  origin: "http://localhost:4200"
+};
+app.use(cors(corsOptions));
 
 // const dataPath = path.join(__dirname, 'product-data.json');
 
