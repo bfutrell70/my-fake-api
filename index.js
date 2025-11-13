@@ -50,7 +50,10 @@ app.use(bodyParser.json());
         flavor_profile: Array of strings,
         grind_option:   Array of strings,
         roast_level:    Number,
-        image_url:      String
+        
+        [filename on original fake-coffee-api site appears to have a 'webp' extension]
+        [found an image url in the video "Demo: Changing Response Types", but it doesn't load.]
+        image_url:      String  
     }
 
     Individual objects
