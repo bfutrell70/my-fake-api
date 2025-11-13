@@ -16,8 +16,7 @@ In an attempt to continue working through the course, I created this project.
 
 Pictures are served from the 'images' path: `http://localhost:8081/images/<<image filename>>`. I'm not sure if the image names are correct for the Pluralsight course, will update them as needed. You can tell I used a sample image and modified them for use with this project - be gentle. :)
 
-The product data in index.js was shown in the module 2 video "Demo: Get Your App Ready for HTTP" at the 3:27 time index and the module 2 video "Demo: Requesting JSON Date" at the 6:00 time index. 
-Additional coffee product data added from the Module 2 video "Demo: Creating and Modifying Data Using Request Entities".
+The product data contained in product-data.json was gathered from the Pluralsight Angular HTTP Playbook course. As product data was shown in the module videos I added the data to the JSON file.
 
 ## Using this project
 - clone the project to your computer
@@ -46,7 +45,7 @@ Any POST/PUT/PATCH/DELETE API requests will not affect the original list of prod
 - /api/1 - delete existing product. Deleted product is returned.
 
 ## Using this project within an Angular project
-- copy the my-fake-api folder to the Angular project folder
+- [OPTIONAL] Copy the my-fake-api folder to the Angular project folder. Alternatively the my-fake-api folder can be stored elsewhere.
 - within the Angular project, create the file `proxy.conf.json` witin the `/src` folder
 - paste the following JSON markup into the file:
 
@@ -62,7 +61,7 @@ Any POST/PUT/PATCH/DELETE API requests will not affect the original list of prod
 - in the angular.json file, go to the `serve` section and add the following line under "configuration:development":
 `"proxyConfig": "src/proxy.conf.json"`
 
-- run the my-fake-api project by opening a terminal, navigating to the folder and runing `npm start`
+- run the my-fake-api project by opening a terminal, navigating to the `my-fake-api` folder and running `npm start`
 - run the Angular application by opening a terminal, navigating to the Angular project folder and running `npm start`
 - when attempting to use an API call, use the URL `/api` to access the my-fake-api server
 
